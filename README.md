@@ -12,6 +12,12 @@ The project features a clean glassmorphism UI and dynamic rendering system.
 
 ---
 
+# 🚀 Live Demo
+
+👉 
+
+---
+
 # 🚀 Features
 
 ✅ Create notes  
@@ -45,26 +51,5 @@ The project features a clean glassmorphism UI and dynamic rendering system.
 - Event listeners
 - Template literals
 
----
 
-
-# ▶️ Run Project
-
-1. Download project
-2. Open `index.html`
-3. Start creating notes ✨
-
----
-
-# 📂 Project Structure
-
-```bash
-notes-app-lite/
-│
-├── index.html
-├── style.css
-└── script.js
-```
-
----
 
