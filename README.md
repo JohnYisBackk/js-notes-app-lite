@@ -14,7 +14,7 @@ The project features a clean glassmorphism UI and dynamic rendering system.
 
 # 🚀 Live Demo
 
-👉 
+👉 https://johnyisbackk.github.io/js-notes-app-lite/
 
 ---
 
