@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Notes App Lite</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="app">
+      <div class="top-bar">
+        <div>
+          <p class="eyebrow">Notes App Lite</p>
+          <h1>Capture your ideas ✨</h1>
+        </div>
+
+        <div class="notes-count">
+          <span id="notesCount">0</span>
+          <p>Notes</p>
+        </div>
+      </div>
+
+      <!-- CREATE NOTE -->
+
+      <section class="create-note-card">
+        <textarea
+          id="noteInput"
+          placeholder="Write your next idea here..."
+        ></textarea>
+
+        <div class="actions">
+          <button id="clearBtn" class="secondary-btn">Clear</button>
+
+          <button id="addNoteBtn" class="primary-btn">Add Note</button>
+        </div>
+      </section>
+
+      <!-- NOTES LIST -->
+
+      <section id="notesContainer" class="notes-grid">
+        <!-- notes generated with JS -->
+      </section>
+
+      <!-- EMPTY STATE -->
+      <div id="emptyState" class="empty-state">
+        <h3>No notes yet</h3>
+        <p>Create your first note to get started.</p>
+      </div>
+    </main>
+  </body>
+</html>
